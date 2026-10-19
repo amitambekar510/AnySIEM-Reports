@@ -39,7 +39,7 @@ and follow it exactly. Start by showing me the template catalog.
 
 ## 🧭 From evidence to report
 
-<img src="assets/media/evidence-architecture.svg" width="100%" alt="Visual architecture from user-supplied SOC evidence to AI-guided review and final PDF"/>
+<img src="https://raw.githubusercontent.com/amitambekar510/AnySIEM-Reports/main/assets/media/evidence-architecture.svg?v=2" width="100%" alt="Visual architecture from user-supplied SOC evidence to AI-guided review and final PDF"/>
 
 The repository is deliberately **SIEM-agnostic**. The AI asks about your environment and available evidence before drafting. It must not invent metrics, claim unverified compliance, or expose confidential customer data.
 
