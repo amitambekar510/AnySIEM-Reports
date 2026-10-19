@@ -1,0 +1,8 @@
+id: phishing-campaign-analysis
+name: "Phishing Campaign Analysis"
+version: 1.0
+description: "Analysis of a phishing campaign: lure, indicators, impact, response, and control gaps."
+palette: ultramarine-mustard
+cadence: "Per campaign"
+output: pdf
+language: en-US

@@ -1,0 +1,16 @@
+template: soc-risk-register-report
+palette: cinnabar-aquamarine
+colors:
+  primary: "#411D11"
+  secondary: "#A54627"
+  accent: "#64B4CE"
+  tint: "#F0E4E0"
+  surface: "#FBF7F6"
+  ink: "#20120E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

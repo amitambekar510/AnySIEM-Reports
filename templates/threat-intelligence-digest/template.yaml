@@ -1,0 +1,8 @@
+id: threat-intelligence-digest
+name: "Threat Intelligence Digest"
+version: 1.0
+description: "Annual advisory and governance document on threats and IOC delivery."
+palette: pine-shadow
+cadence: "Annual"
+output: pdf
+language: en-US

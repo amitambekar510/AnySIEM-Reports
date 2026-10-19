@@ -1,0 +1,16 @@
+template: client-onboarding-readiness-report
+palette: wisteria-peridot
+colors:
+  primary: "#2F153C"
+  secondary: "#622A7E"
+  accent: "#BCCE64"
+  tint: "#EBE0F0"
+  surface: "#F9F6FB"
+  ink: "#1A0E20"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

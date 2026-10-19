@@ -1,0 +1,8 @@
+id: platform-access-review
+name: "Monitoring Platform Access Review"
+version: 1.0
+description: "Periodic review of user access, authentication strength, privileged activity, and dormant accounts."
+palette: mint-jade-gray
+cadence: "Quarterly or semi-annual"
+output: pdf
+language: en-US

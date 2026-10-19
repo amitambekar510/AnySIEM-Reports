@@ -1,0 +1,16 @@
+template: ioc-sweep-report
+palette: chartreuse-plum-rose
+colors:
+  primary: "#2A321F"
+  secondary: "#6A7E4E"
+  accent: "#C564CE"
+  tint: "#E9F0E0"
+  surface: "#F9FBF6"
+  ink: "#18200E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

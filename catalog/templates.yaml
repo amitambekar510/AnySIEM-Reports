@@ -1,0 +1,288 @@
+# The menu the AI shows users. To add a template, create templates/<id>/ and
+# add one entry here. See docs/ADDING_A_TEMPLATE.md.
+catalog_version: 3
+templates:
+  - id: soc-monthly-report
+    name: "SOC Operations Report"
+    description: "Periodic SOC operations and compliance report: platform health, alerts, incidents, detection coverage, SLAs, and framework summary. Monthly, quarterly, or annual."
+    path: templates/soc-monthly-report
+    category: "Operations"
+    palette: deep-winter-blue
+    related: [executive-ciso-brief, efficiency-report, sla-compliance-report]
+    status: available
+  - id: executive-ciso-brief
+    name: "Executive / CISO Brief"
+    description: "One-to-two page leadership brief: posture, key events, risk, and decisions needed."
+    path: templates/executive-ciso-brief
+    category: "Operations"
+    palette: nordic-charcoal
+    status: available
+  - id: efficiency-report
+    name: "SOC Efficiency Report"
+    description: "Detection and response timing, alert quality, workload, automation impact, and quality assurance."
+    path: templates/efficiency-report
+    category: "Operations"
+    palette: ember-amber
+    status: available
+  - id: daily-soc-summary
+    name: "Daily SOC Summary and Shift Handover"
+    description: "Short per-day or per-shift report with alert activity, exceptions, open items, and a formal handover."
+    path: templates/daily-soc-summary
+    category: "Operations"
+    palette: fern-violet
+    status: available
+  - id: weekly-soc-summary
+    name: "Weekly SOC Summary"
+    description: "Weekly view of alerts, incidents, threat activity, platform health, and improvements."
+    path: templates/weekly-soc-summary
+    category: "Operations"
+    palette: copper-indigo
+    status: available
+  - id: incident-report
+    name: "Security Incident Report"
+    description: "Per-incident report with classification, timeline, root cause analysis, impact, regulatory notification record, and recommendations."
+    path: templates/incident-report
+    category: "Incident"
+    palette: deep-cranberry
+    related: [post-incident-review, regulatory-notification-report]
+    status: available
+  - id: post-incident-review
+    name: "Post-Incident Review"
+    description: "Blameless review of an incident: what worked, what did not, lessons, and tracked actions."
+    path: templates/post-incident-review
+    category: "Incident"
+    palette: crimson-jade
+    related: [incident-report]
+    status: available
+  - id: regulatory-notification-report
+    name: "Regulatory Notification Report"
+    description: "Record of reportability decisions, obligations, notification content, submission, and follow-up."
+    path: templates/regulatory-notification-report
+    category: "Incident"
+    palette: emerald-ruby
+    related: [incident-report]
+    status: available
+  - id: phishing-campaign-analysis
+    name: "Phishing Campaign Analysis"
+    description: "Analysis of a phishing campaign: lure, indicators, impact, response, and control gaps."
+    path: templates/phishing-campaign-analysis
+    category: "Incident"
+    palette: ultramarine-mustard
+    related: [phishing-simulation-awareness-report]
+    status: available
+  - id: insider-threat-case-report
+    name: "Insider Threat and User Behavior Case Report"
+    description: "Restricted case report on suspicious user activity with authorization, facts, assessment, and referrals."
+    path: templates/insider-threat-case-report
+    category: "Incident"
+    palette: saffron-azure
+    status: available
+  - id: alert-incident-tracker
+    name: "Daily Alert and Incident Tracker"
+    description: "Field definitions, values, and log layout for a daily or monthly alert and incident tracker."
+    path: templates/alert-incident-tracker
+    category: "Incident"
+    palette: fuchsia-shamrock
+    status: available
+  - id: threat-intelligence-digest
+    name: "Threat Intelligence Digest"
+    description: "Annual advisory and governance document on the threat landscape, IOC delivery model, IOC lifecycle, and recommended security controls."
+    path: templates/threat-intelligence-digest
+    category: "Threat intelligence"
+    palette: pine-shadow
+    related: [malicious-ip-top-talker-report, threat-advisory-flash-alert]
+    status: available
+  - id: threat-hunt-report
+    name: "Threat Hunt Report"
+    description: "Hunt charter, method, visibility, findings, ATT&CK mapping, and detection outcomes."
+    path: templates/threat-hunt-report
+    category: "Threat intelligence"
+    palette: royal-plum
+    related: [ioc-sweep-report, detection-engineering-attack-gaps]
+    status: available
+  - id: threat-advisory-flash-alert
+    name: "Threat Advisory and Flash Alert"
+    description: "Short advisory on an emerging threat with exposure check, indicators, and recommended actions."
+    path: templates/threat-advisory-flash-alert
+    category: "Threat intelligence"
+    palette: raspberry-mauve
+    related: [ioc-sweep-report]
+    status: available
+  - id: ioc-sweep-report
+    name: "IOC Sweep (Retro-Hunt) Report"
+    description: "Report on searching historical data for a set of indicators, with results and limits."
+    path: templates/ioc-sweep-report
+    category: "Threat intelligence"
+    palette: chartreuse-plum-rose
+    related: [threat-hunt-report]
+    status: available
+  - id: malicious-ip-top-talker-report
+    name: "Malicious IP and Top-Talker Report"
+    description: "Top external and internal talkers with reputation verdicts and required client action."
+    path: templates/malicious-ip-top-talker-report
+    category: "Threat intelligence"
+    palette: cerulean-citrine
+    status: available
+  - id: credential-leak-monitoring-report
+    name: "Credential Leak and Dark Web Monitoring Report"
+    description: "Report on exposed credentials and data-sale claims, validation, risk, and actions."
+    path: templates/credential-leak-monitoring-report
+    category: "Threat intelligence"
+    palette: rust-garnet
+    status: available
+  - id: siem-health-coverage
+    name: "SIEM Health and Coverage Report"
+    description: "Platform health, log source coverage, ingestion quality, retention, and gap analysis."
+    path: templates/siem-health-coverage
+    category: "Platform"
+    palette: deep-teal
+    related: [log-source-onboarding-report, retention-storage-integrity-report]
+    status: available
+  - id: detection-engineering-attack-gaps
+    name: "Detection Engineering and ATT&CK Gap Report"
+    description: "Detection inventory, ATT&CK coverage and gaps, rule performance, validation, and roadmap."
+    path: templates/detection-engineering-attack-gaps
+    category: "Platform"
+    palette: sapphire-cyan
+    related: [attack-coverage-gap-analysis]
+    status: available
+  - id: log-source-onboarding-report
+    name: "Log Source Onboarding Report"
+    description: "Per-source onboarding record: design, validation, use cases, capacity, and acceptance."
+    path: templates/log-source-onboarding-report
+    category: "Platform"
+    palette: turquoise-denim
+    status: available
+  - id: attack-coverage-gap-analysis
+    name: "ATT&CK Coverage Gap Analysis"
+    description: "Technique-level coverage matrix, threat-informed priorities, gap register, and roadmap."
+    path: templates/attack-coverage-gap-analysis
+    category: "Platform"
+    palette: fern-gray-clover-gray
+    related: [detection-engineering-attack-gaps]
+    status: available
+  - id: playbook-automation-effectiveness
+    name: "Playbook and Automation Effectiveness Report"
+    description: "Inventory, execution statistics, impact, failures, safeguards, and roadmap for response automation."
+    path: templates/playbook-automation-effectiveness
+    category: "Platform"
+    palette: terracotta-lime
+    status: available
+  - id: retention-storage-integrity-report
+    name: "Log Retention, Storage and Integrity Report"
+    description: "Retention requirements vs configuration, capacity forecast, integrity controls, and restore tests."
+    path: templates/retention-storage-integrity-report
+    category: "Platform"
+    palette: harbor-sienna
+    status: available
+  - id: ai-system-security-report
+    name: "AI System Security Monitoring Report"
+    description: "Security monitoring of AI systems: inventory, protected assets, AI-specific threats, lifecycle coverage, controls, and gaps."
+    path: templates/ai-system-security-report
+    category: "AI security and governance"
+    palette: mustard-gray-rust-gray
+    related: [ai-management-system-review, soc-risk-register-report, threat-hunt-report, incident-report]
+    status: available
+  - id: ai-management-system-review
+    name: "AI Management System Review Report"
+    description: "Periodic review of an AI management system: scope, policy, risk and impact assessment, controls, audit, management review, and improvement."
+    path: templates/ai-management-system-review
+    category: "AI security and governance"
+    palette: shamrock-gray-seafoam
+    related: [ai-system-security-report, compliance-evidence-pack, soc-risk-register-report]
+    status: available
+  - id: compliance-evidence-pack
+    name: "Compliance Evidence Pack"
+    description: "Control mapping, evidence index, samples, gaps, and regulatory reporting record for one framework."
+    path: templates/compliance-evidence-pack
+    category: "Governance"
+    palette: cashmere-brown
+    status: available
+  - id: tabletop-exercise-report
+    name: "Tabletop Exercise Report"
+    description: "Exercise objectives, scenario, decisions, findings, notification readiness, and corrective actions."
+    path: templates/tabletop-exercise-report
+    category: "Governance"
+    palette: olive-moss
+    related: [soc-dr-continuity-test-report]
+    status: available
+  - id: soc-maturity-assessment
+    name: "SOC Maturity Assessment"
+    description: "Assessment of SOC capability against a maturity model the user chooses, with gaps and roadmap."
+    path: templates/soc-maturity-assessment
+    category: "Governance"
+    palette: cyan-rose
+    status: available
+  - id: platform-access-review
+    name: "Monitoring Platform Access Review"
+    description: "Periodic review of user access, authentication strength, privileged activity, and dormant accounts."
+    path: templates/platform-access-review
+    category: "Governance"
+    palette: mint-jade-gray
+    status: available
+  - id: soc-risk-register-report
+    name: "SOC Risk Register Report"
+    description: "Risk method, register summary, risk detail, changes, decisions needed, and trends."
+    path: templates/soc-risk-register-report
+    category: "Governance"
+    palette: cinnabar-aquamarine
+    status: available
+  - id: soc-dr-continuity-test-report
+    name: "SOC Disaster Recovery and Continuity Test Report"
+    description: "Test of recovering SOC tooling and continuing monitoring during disruption."
+    path: templates/soc-dr-continuity-test-report
+    category: "Governance"
+    palette: magenta-gray-grape
+    status: available
+  - id: vulnerability-patch-posture
+    name: "Vulnerability and Patch Posture Report"
+    description: "Scan coverage, findings by severity, patch timeliness, urgent items, and exceptions."
+    path: templates/vulnerability-patch-posture
+    category: "Exposure"
+    palette: cerise-peacock
+    status: available
+  - id: external-attack-surface-report
+    name: "External Attack Surface Report"
+    description: "Authorized view of internet-facing assets, exposed services, certificates, DNS, and unknown assets."
+    path: templates/external-attack-surface-report
+    category: "Exposure"
+    palette: marigold-turquoise-gray
+    status: available
+  - id: phishing-simulation-awareness-report
+    name: "Phishing Simulation and Awareness Report"
+    description: "Aggregate results of phishing simulations and training, with trends and recommendations."
+    path: templates/phishing-simulation-awareness-report
+    category: "Exposure"
+    palette: pistachio-iris
+    status: available
+  - id: sla-quarterly-review
+    name: "SLA and Quarterly Service Review"
+    description: "Managed-service review: SLA results, service metrics, improvements, issues, and next-quarter plan."
+    path: templates/sla-quarterly-review
+    category: "Managed service"
+    palette: rose-orchid
+    related: [sla-compliance-report]
+    status: available
+  - id: sla-compliance-report
+    name: "SLA Compliance Report"
+    description: "Metric-level SLA evidence with measurement method, breach register, and exclusions."
+    path: templates/sla-compliance-report
+    category: "Managed service"
+    palette: magenta-clover
+    related: [sla-quarterly-review]
+    status: available
+  - id: client-onboarding-readiness-report
+    name: "Client Onboarding and SOC Readiness Report"
+    description: "Onboarding plan and go-live readiness: scope, discovery, log sources, connectivity, use cases, and checklist."
+    path: templates/client-onboarding-readiness-report
+    category: "Managed service"
+    palette: wisteria-peridot
+    related: [log-source-onboarding-report]
+    status: available
+  - id: tuning-whitelisting-log
+    name: "Tuning and Whitelisting Request Log"
+    description: "Governed register of rule tuning and exception requests with approval, risk assessment, and expiry."
+    path: templates/tuning-whitelisting-log
+    category: "Managed service"
+    palette: copper-gray-twilight
+    status: available

@@ -1,0 +1,16 @@
+template: alert-incident-tracker
+palette: fuchsia-shamrock
+colors:
+  primary: "#311F32"
+  secondary: "#7A4E7E"
+  accent: "#6DCE64"
+  tint: "#EFE0F0"
+  surface: "#FBF6FB"
+  ink: "#1F0E20"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

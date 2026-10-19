@@ -1,0 +1,16 @@
+template: malicious-ip-top-talker-report
+palette: cerulean-citrine
+colors:
+  primary: "#112941"
+  secondary: "#2766A5"
+  accent: "#CECE64"
+  tint: "#E0E8F0"
+  surface: "#F6F9FB"
+  ink: "#0E1720"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

@@ -1,0 +1,16 @@
+template: soc-dr-continuity-test-report
+palette: magenta-gray-grape
+colors:
+  primary: "#41113D"
+  secondary: "#A5279B"
+  accent: "#A264CE"
+  tint: "#F0E0EF"
+  surface: "#FBF6FB"
+  ink: "#200E1F"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

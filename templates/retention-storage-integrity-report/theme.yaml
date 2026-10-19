@@ -1,0 +1,16 @@
+template: retention-storage-integrity-report
+palette: harbor-sienna
+colors:
+  primary: "#111D41"
+  secondary: "#203A88"
+  accent: "#CE7E64"
+  tint: "#E0E4F0"
+  surface: "#F6F7FB"
+  ink: "#0E1220"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

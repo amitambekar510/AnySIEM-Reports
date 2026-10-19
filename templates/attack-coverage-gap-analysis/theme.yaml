@@ -1,0 +1,16 @@
+template: attack-coverage-gap-analysis
+palette: fern-gray-clover-gray
+colors:
+  primary: "#11411D"
+  secondary: "#27A546"
+  accent: "#7ECE64"
+  tint: "#E0F0E4"
+  surface: "#F6FBF7"
+  ink: "#0E2012"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

@@ -1,0 +1,16 @@
+template: efficiency-report
+palette: ember-amber
+colors:
+  primary: "#8A3B0F"
+  secondary: "#D97316"
+  accent: "#F5B25C"
+  tint: "#FCE5CC"
+  surface: "#FFF9F1"
+  ink: "#3B1D0A"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

@@ -1,0 +1,16 @@
+template: phishing-campaign-analysis
+palette: ultramarine-mustard
+colors:
+  primary: "#111141"
+  secondary: "#2727A5"
+  accent: "#CECE64"
+  tint: "#E0E0F0"
+  surface: "#F6F6FB"
+  ink: "#0E0E20"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

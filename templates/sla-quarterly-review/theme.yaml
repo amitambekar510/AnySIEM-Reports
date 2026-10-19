@@ -1,0 +1,16 @@
+template: sla-quarterly-review
+palette: rose-orchid
+colors:
+  primary: "#5B1A44"
+  secondary: "#A5336F"
+  accent: "#E28BB5"
+  tint: "#F8DCEA"
+  surface: "#FFF7FB"
+  ink: "#2C0E21"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

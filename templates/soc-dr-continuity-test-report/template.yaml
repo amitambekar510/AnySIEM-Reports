@@ -1,0 +1,8 @@
+id: soc-dr-continuity-test-report
+name: "SOC Disaster Recovery and Continuity Test Report"
+version: 1.0
+description: "Test of recovering SOC tooling and continuing monitoring during disruption."
+palette: magenta-gray-grape
+cadence: "Per test (at least annual)"
+output: pdf
+language: en-US

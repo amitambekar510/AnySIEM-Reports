@@ -1,0 +1,8 @@
+id: threat-hunt-report
+name: "Threat Hunt Report"
+version: 1.0
+description: "Hunt charter, method, visibility, findings, ATT&CK mapping, and detection outcomes."
+palette: royal-plum
+cadence: "Per hunt"
+output: pdf
+language: en-US

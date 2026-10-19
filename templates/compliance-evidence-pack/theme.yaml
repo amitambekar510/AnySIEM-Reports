@@ -1,0 +1,16 @@
+template: compliance-evidence-pack
+palette: cashmere-brown
+colors:
+  primary: "#332821"
+  secondary: "#8C7562"
+  accent: "#D8C5AD"
+  tint: "#F8EFE3"
+  surface: "#FFFFFF"
+  ink: "#332821"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

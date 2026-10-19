@@ -1,0 +1,16 @@
+template: post-incident-review
+palette: crimson-jade
+colors:
+  primary: "#411119"
+  secondary: "#882031"
+  accent: "#64CE87"
+  tint: "#F0E0E3"
+  surface: "#FBF6F7"
+  ink: "#200E11"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

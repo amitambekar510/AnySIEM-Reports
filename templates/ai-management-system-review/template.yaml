@@ -1,0 +1,8 @@
+id: ai-management-system-review
+name: "AI Management System Review Report"
+version: 1.0
+description: "Periodic review of an AI management system: scope, policy, risk and impact assessment, controls, audit, management review, and improvement."
+palette: shamrock-gray-seafoam
+cadence: "Annual or per audit cycle"
+output: pdf
+language: en-US

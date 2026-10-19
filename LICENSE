@@ -1,0 +1,70 @@
+AnySIEM-Reports License, Version 1.0
+
+Copyright (c) 2026 Amit Ambekar (github.com/amitambekar510). All rights reserved
+except as granted below.
+
+NOTE: This is a custom license. It is not an OSI-approved open-source license.
+Have qualified legal counsel review it before relying on it commercially, and
+complete the governing-law clause in Section 11.
+
+1. DEFINITIONS
+   "Project" means the AnySIEM-Reports repository: its documents, templates,
+   instructions, catalogs, and configuration files.
+   "Author" means Amit Ambekar.
+   "Generated Report" means any document produced by using the Project with an
+   AI assistant or any other tool.
+
+2. GRANT OF USE
+   Subject to this License, you may use, copy, adapt, and build on the Project
+   free of charge, for personal, internal, educational, or commercial work,
+   including producing Generated Reports for your own organization or for your
+   clients.
+
+3. GENERATED REPORTS
+   You own the Generated Reports you produce and the data you supply. The
+   watermark and footer attribution that the Project adds by default are
+   optional. You may remove or replace them in any Generated Report without
+   notice to the Author.
+
+4. ATTRIBUTION FOR REDISTRIBUTION
+   If you publish, share, or distribute the Project, or a work that copies
+   substantial parts of it, you must:
+   (a) keep this License and the copyright notice;
+   (b) credit "AnySIEM-Reports by Amit Ambekar (github.com/amitambekar510)";
+   (c) state clearly what you changed.
+
+5. NO ENDORSEMENT OR MISREPRESENTATION
+   You may not present a modified version as the original Project, and you may
+   not use the Author's name or the Project name to imply endorsement,
+   certification, or partnership.
+
+6. NO COMPLIANCE OR LEGAL ADVICE
+   The Project gives reporting structure and writing guidance only. It does not
+   constitute legal, regulatory, audit, or professional advice, and it does not
+   guarantee compliance with any law, regulation, standard, or framework.
+   Frameworks change. You are responsible for verifying current official
+   requirements.
+
+7. THIRD-PARTY NAMES
+   Names of regulations, standards, frameworks, and organizations referenced in
+   the Project belong to their respective owners. Their use is descriptive only.
+
+8. CONTRIBUTIONS
+   Unless agreed otherwise in writing, anything you submit to the Project for
+   inclusion is licensed to the Author under this License and may be included
+   in the Project and relicensed by the Author.
+
+9. NO WARRANTY
+   THE PROJECT IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING FITNESS FOR A PARTICULAR PURPOSE, ACCURACY, AND
+   NON-INFRINGEMENT.
+
+10. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE AUTHOR IS NOT LIABLE FOR ANY
+   CLAIM, DAMAGE, LOSS, REGULATORY ACTION, OR AUDIT FINDING ARISING FROM USE OF
+   THE PROJECT OR ANY GENERATED REPORT.
+
+11. TERMINATION AND GOVERNING LAW
+   Your rights end automatically if you breach this License; they resume if you
+   cure the breach within 30 days of notice. This License is governed by the
+   laws of [GOVERNING LAW AND JURISDICTION TO BE CONFIRMED BY LEGAL COUNSEL].

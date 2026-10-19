@@ -1,0 +1,18 @@
+project_name: "AnySIEM-Reports"
+attribution_text: "With the help of repo amitambekar510 GitHub account with AnySIEM-Reports by Amit Ambekar"
+
+watermark:
+  enabled: true
+  text: "AnySIEM-Reports"
+  opacity: 0.06        # keep at or below 0.08
+  angle_degrees: 35
+  color: "theme_secondary"
+
+footer:
+  enabled: true
+  text: "With the help of repo amitambekar510 GitHub account with AnySIEM-Reports by Amit Ambekar"
+  show_page_number: true
+  show_classification: true
+
+# Users may disable either element for their own reports.
+removable_by_user: true

@@ -1,0 +1,16 @@
+template: phishing-simulation-awareness-report
+palette: pistachio-iris
+colors:
+  primary: "#314111"
+  secondary: "#668820"
+  accent: "#8764CE"
+  tint: "#EBF0E0"
+  surface: "#F9FBF6"
+  ink: "#1A200E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

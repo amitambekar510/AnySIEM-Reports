@@ -1,0 +1,8 @@
+id: malicious-ip-top-talker-report
+name: "Malicious IP and Top-Talker Report"
+version: 1.0
+description: "Top external and internal talkers with reputation verdicts and required client action."
+palette: cerulean-citrine
+cadence: "Monthly or quarterly"
+output: pdf
+language: en-US

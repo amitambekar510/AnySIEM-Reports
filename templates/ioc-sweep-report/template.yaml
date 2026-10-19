@@ -1,0 +1,8 @@
+id: ioc-sweep-report
+name: "IOC Sweep (Retro-Hunt) Report"
+version: 1.0
+description: "Report on searching historical data for a set of indicators, with results and limits."
+palette: chartreuse-plum-rose
+cadence: "Per sweep"
+output: pdf
+language: en-US

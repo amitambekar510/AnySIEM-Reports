@@ -1,0 +1,16 @@
+template: external-attack-surface-report
+palette: marigold-turquoise-gray
+colors:
+  primary: "#38331A"
+  secondary: "#8D803F"
+  accent: "#64ABCE"
+  tint: "#F0EDE0"
+  surface: "#FBFAF6"
+  ink: "#201D0E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

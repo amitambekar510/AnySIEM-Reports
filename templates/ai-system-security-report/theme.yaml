@@ -1,0 +1,16 @@
+template: ai-system-security-report
+palette: mustard-gray-rust-gray
+colors:
+  primary: "#413511"
+  secondary: "#A58627"
+  accent: "#CE7E64"
+  tint: "#F0ECE0"
+  surface: "#FBFAF6"
+  ink: "#201C0E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

@@ -1,0 +1,16 @@
+template: ai-management-system-review
+palette: shamrock-gray-seafoam
+colors:
+  primary: "#153C1F"
+  secondary: "#2A7E3F"
+  accent: "#64CEB4"
+  tint: "#E0F0E4"
+  surface: "#F6FBF7"
+  ink: "#0E2012"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

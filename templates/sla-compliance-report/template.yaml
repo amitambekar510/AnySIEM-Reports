@@ -1,0 +1,8 @@
+id: sla-compliance-report
+name: "SLA Compliance Report"
+version: 1.0
+description: "Metric-level SLA evidence with measurement method, breach register, and exclusions."
+palette: magenta-clover
+cadence: "Monthly"
+output: pdf
+language: en-US

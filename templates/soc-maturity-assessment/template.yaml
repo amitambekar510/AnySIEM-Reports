@@ -1,0 +1,8 @@
+id: soc-maturity-assessment
+name: "SOC Maturity Assessment"
+version: 1.0
+description: "Assessment of SOC capability against a maturity model the user chooses, with gaps and roadmap."
+palette: cyan-rose
+cadence: "Annual"
+output: pdf
+language: en-US

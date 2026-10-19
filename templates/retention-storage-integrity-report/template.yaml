@@ -1,0 +1,8 @@
+id: retention-storage-integrity-report
+name: "Log Retention, Storage and Integrity Report"
+version: 1.0
+description: "Retention requirements vs configuration, capacity forecast, integrity controls, and restore tests."
+palette: harbor-sienna
+cadence: "Quarterly or annual"
+output: pdf
+language: en-US

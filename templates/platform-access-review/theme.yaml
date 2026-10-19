@@ -1,0 +1,16 @@
+template: platform-access-review
+palette: mint-jade-gray
+colors:
+  primary: "#114135"
+  secondary: "#27A586"
+  accent: "#64CE7E"
+  tint: "#E0F0EC"
+  surface: "#F6FBFA"
+  ink: "#0E201C"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

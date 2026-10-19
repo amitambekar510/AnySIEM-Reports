@@ -1,0 +1,8 @@
+id: client-onboarding-readiness-report
+name: "Client Onboarding and SOC Readiness Report"
+version: 1.0
+description: "Onboarding plan and go-live readiness: scope, discovery, log sources, connectivity, use cases, and checklist."
+palette: wisteria-peridot
+cadence: "Per engagement"
+output: pdf
+language: en-US

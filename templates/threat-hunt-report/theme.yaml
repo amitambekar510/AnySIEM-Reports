@@ -1,0 +1,16 @@
+template: threat-hunt-report
+palette: royal-plum
+colors:
+  primary: "#2D1B4E"
+  secondary: "#6A3FA0"
+  accent: "#B79AE0"
+  tint: "#E9E0F6"
+  surface: "#FAF7FD"
+  ink: "#1B1030"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

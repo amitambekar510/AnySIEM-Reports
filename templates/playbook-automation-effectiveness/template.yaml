@@ -1,0 +1,8 @@
+id: playbook-automation-effectiveness
+name: "Playbook and Automation Effectiveness Report"
+version: 1.0
+description: "Inventory, execution statistics, impact, failures, safeguards, and roadmap for response automation."
+palette: terracotta-lime
+cadence: "Quarterly"
+output: pdf
+language: en-US

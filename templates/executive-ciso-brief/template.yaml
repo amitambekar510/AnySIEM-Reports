@@ -1,0 +1,8 @@
+id: executive-ciso-brief
+name: "Executive / CISO Brief"
+version: 1.0
+description: "One-to-two page leadership brief: posture, key events, risk, and decisions needed."
+palette: nordic-charcoal
+cadence: "Monthly or quarterly"
+output: pdf
+language: en-US
