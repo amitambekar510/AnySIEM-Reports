@@ -1,4 +1,55 @@
-# AnySIEM-Reports
+<div align="center">
+<img src="assets/media/hero.svg" width="100%" alt="AnySIEM-Reports AI-guided reporting: 38 templates"/> 
+
+### 38 professional report blueprints · Any SIEM · One polished PDF
+
+[![Templates](https://img.shields.io/badge/Report_Templates-38-DCB64E?style=for-the-badge&labelColor=091126)](catalog/templates.yaml) [![Output](https://img.shields.io/badge/Output-PDF-60D7AF?style=for-the-badge&labelColor=091126)](core/pdf-output-rules.md) [![AI Guided](https://img.shields.io/badge/Workflow-AI_Guided-54C8ED?style=for-the-badge&labelColor=091126)](AI_INSTRUCTIONS.md)
+
+[**Quick Start**](#-quick-start) · [**Animated Workflow**](#-animated-workflow) · [**38 Templates**](#available-templates-38) · [**Contribute**](docs/ADDING_A_TEMPLATE.md)
+</div>
+
+> [!IMPORTANT]
+> This is an **AI-assisted reporting framework**, not a hosted SaaS product or an automatically connected live SIEM. The AI helps structure evidence and prepare reports; all inputs and regulatory claims require review and approval.
+
+## 🎞️ Animated workflow
+
+<div align="center">
+<img src="assets/media/reporting-workflow.gif" width="100%" alt="Animated five-stage reporting workflow from template choice to PDF"/>
+
+*Illustrative walkthrough; does not depict a live application.*
+
+<img src="assets/media/template-gallery.gif" width="100%" alt="Rotating gallery of conceptual SOC, incident, threat intelligence, and audit report templates"/>
+
+*Visual previews contain synthetic illustrations, not actual SOC results.*
+</div>
+
+## 🚀 Quick start
+
+<img src="assets/media/quickstart.svg" width="100%" alt="Four-step quick start guide"/>
+
+**Use an AI assistant with GitHub access:**
+
+```text
+Read AI_INSTRUCTIONS.md in the repository
+https://github.com/amitambekar510/AnySIEM-Reports
+and follow it exactly. Start by showing me the template catalog.
+```
+
+**No GitHub connection?** Download the repository ZIP, attach it to your assistant, and use the same prompt. Prepare a report period, SIEM version, approved metrics/evidence, regulatory scope, and SLA definitions. You can request **template mode** with placeholders or **populated mode** using authorized SOC data. [Complete usage guide](docs/HOW_TO_USE_WITH_AI.md).
+
+## 🧭 From evidence to report
+
+<img src="assets/media/evidence-architecture.svg" width="100%" alt="Visual architecture from user-supplied SOC evidence to AI-guided review and final PDF"/>
+
+The repository is deliberately **SIEM-agnostic**. The AI asks about your environment and available evidence before drafting. It must not invent metrics, claim unverified compliance, or expose confidential customer data.
+
+| ⚡ Guided | 🛡️ Evidence-first | 🎨 Report-specific design |
+|:---|:---|:---|
+| Bite-sized interview questions | Reviewable metrics and gaps | A distinct palette for each report |
+
+**For contributors and practitioners:** see the [template catalog](catalog/templates.yaml), [framework coverage](docs/FRAMEWORK_COVERAGE.md), and [AI guardrails](AI_INSTRUCTIONS.md). All 38 report templates remain unchanged.
+
+---
 
 > An open framework that helps SOC teams build compliance-focused reporting templates for any SIEM. Connect it to your AI assistant, answer guided questions about your SOC, and generate a branded PDF report, whether monthly, quarterly, or annual.
 
@@ -11,25 +62,6 @@
 Every SOC eventually has to produce the same documents: periodic operations reports, incident reports, and threat intelligence briefings. Most teams rebuild them from scratch, and most templates are tied to one product.
 
 AnySIEM-Reports is **SIEM-agnostic**. The templates describe *what evidence a report must contain*, not *which product produces it*. Your AI assistant learns your SIEM during the conversation, then maps your platform's data to each section.
-
-## How it works
-
-1. **Connect** your AI assistant to this repository (see the starter prompt below).
-2. **Choose** a template from the catalog.
-3. **Answer** guided questions about your SOC, your SIEM, your audit scope, and your regulators.
-4. **Receive** one finished, branded **PDF**.
-
-The AI first researches your SIEM's current features from public vendor documentation. Anything it cannot confirm, it asks you.
-
-## Starter prompt
-
-Paste this into any AI assistant that can read this repository:
-
-```text
-Read AI_INSTRUCTIONS.md in the repository
-https://github.com/amitambekar510/AnySIEM-Reports
-and follow it exactly. Start by showing me the template catalog.
-```
 
 ## Available templates (38)
 
@@ -119,3 +151,12 @@ Custom license, see [`LICENSE`](LICENSE). It is not an OSI-approved open-source 
 ## Disclaimer
 
 This project provides reporting structure and writing guidance. It is not legal advice and does not guarantee regulatory compliance or audit outcomes. Always confirm obligations with your compliance team and the official regulator text.
+
+
+---
+
+## 🤝 Community and attribution
+
+Have a new reporting use case? [Request a template](.github/ISSUE_TEMPLATE/template-request.md) or [read the contributor guide](docs/ADDING_A_TEMPLATE.md). Star or share this repository to help other security teams discover the framework. GIFs are **locally hosted in this repository** (no third-party image CDN), and the underlying animated walkthroughs are generated from source by [the media generation script](scripts/generate_readme_media.py). Images illustrate the workflow; they do not represent actual telemetry or audit results.
+
+**Privacy reminder:** only submit evidence you are authorized to share, never credentials or client-identifying secrets. The [custom license](LICENSE) is not an OSI-approved open-source license.

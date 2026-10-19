@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="660" viewBox="0 0 1400 660" role="img" aria-label="AnySIEM Reports: 38 templates and AI guided reporting">
+<rect width="1400" height="660" fill="#090e21"/><circle cx="1300" cy="40" r="330" fill="#151c32"/><circle cx="110" cy="690" r="290" fill="#121a31"/>
+<path d="M70 80h76" stroke="#d9b44a" stroke-width="7"/><text x="70" y="160" fill="#dfc885" font-family="Arial,sans-serif" font-size="32" font-weight="bold" letter-spacing="8">OPEN FRAMEWORK</text>
+<text x="70" y="290" fill="#fff4e3" font-family="Arial,sans-serif" font-size="94" font-weight="bold">AnySIEM-</text>
+<text x="70" y="394" fill="#d8b64d" font-family="Arial,sans-serif" font-size="100" font-weight="bold">Reports</text>
+<text x="70" y="455" fill="#f7f1e7" font-family="Arial,sans-serif" font-size="32">AI-guided SOC reporting for any SIEM.</text>
+<text x="70" y="504" fill="#f7f1e7" font-family="Arial,sans-serif" font-size="29">Ask. Learn. Draft. Deliver a PDF.</text>
+<rect x="70" y="548" rx="22" width="143" height="50" fill="none" stroke="#d8b64d" stroke-width="2"/><text x="107" y="582" font-family="Arial" font-size="26" font-weight="bold" fill="#dfc885">ASK</text>
+<rect x="227" y="548" rx="22" width="155" height="50" fill="none" stroke="#d8b64d" stroke-width="2"/><text x="258" y="582" font-family="Arial" font-size="26" font-weight="bold" fill="#dfc885">LEARN</text>
+<rect x="397" y="548" rx="22" width="150" height="50" fill="none" stroke="#d8b64d" stroke-width="2"/><text x="428" y="582" font-family="Arial" font-size="26" font-weight="bold" fill="#dfc885">DRAFT</text>
+<rect x="563" y="548" rx="22" width="122" height="50" fill="#d8b64d"/><text x="592" y="582" font-family="Arial" font-size="26" font-weight="bold" fill="#080e20">PDF</text>
+<rect x="710" y="74" rx="30" width="209" height="58" fill="#d8b64d"/><text x="746" y="113" font-family="Arial" font-size="26" font-weight="bold" fill="#071126">38 TEMPLATES</text>
+<g transform="translate(840 150) rotate(-5)"><rect width="430" height="160" rx="20" fill="#ffffff"/><rect width="430" height="66" rx="20" fill="#21436e"/><rect x="0" y="50" width="430" height="18" fill="#21436e"/><text x="25" y="43" font-size="27" font-family="Arial" font-weight="bold" fill="#fff">SOC Operations Report</text><rect x="26" y="90" rx="6" width="275" height="11" fill="#21436e"/><rect x="26" y="119" rx="6" width="351" height="9" fill="#d9e4f5"/></g>
+<g transform="translate(940 335) rotate(4)"><rect width="400" height="135" rx="18" fill="#fff"/><rect width="400" height="58" rx="18" fill="#8e1f25"/><rect x="0" y="45" width="400" height="15" fill="#8e1f25"/><text x="23" y="39" font-size="25" font-family="Arial" font-weight="bold" fill="#fff">Incident Report</text><rect x="23" y="83" rx="5" width="284" height="10" fill="#bd3b45"/><rect x="23" y="106" rx="5" width="327" height="9" fill="#f1c8c8"/></g>
+<g transform="translate(815 505) rotate(-3)"><rect width="410" height="120" rx="18" fill="#fff"/><rect width="410" height="56" rx="18" fill="#16513c"/><rect x="0" y="45" width="410" height="12" fill="#16513c"/><text x="23" y="38" font-size="24" font-family="Arial" font-weight="bold" fill="#fff">Threat Intelligence Digest</text><rect x="24" y="80" rx="5" width="251" height="9" fill="#3e886c"/><rect x="24" y="101" rx="5" width="309" height="8" fill="#c8e3d2"/></g>
+</svg>
