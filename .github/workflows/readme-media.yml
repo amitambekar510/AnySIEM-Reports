@@ -1,0 +1,35 @@
+name: Generate README animations
+on:
+  push:
+    branches: [docs/visual-readme-upgrade]
+    paths:
+      - "scripts/generate_readme_media.py"
+      - ".github/workflows/readme-media.yml"
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install graphics dependency
+        run: python -m pip install "Pillow>=10,<13"
+      - name: Generate and validate GIFs
+        run: python scripts/generate_readme_media.py
+      - name: Commit generated media on branch
+        run: |
+          git add assets/media/reporting-workflow.gif assets/media/template-gallery.gif
+          if git diff --cached --quiet; then
+            echo "No GIF changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "docs: generate optimized self-hosted README GIFs"
+          git push
