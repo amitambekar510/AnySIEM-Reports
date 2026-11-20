@@ -30,7 +30,7 @@ Read this file completely before you say anything to the user.
 8. **Output is one PDF.** See `core/pdf-output-rules.md`.
 9. **Respect standards copyright.** Do not copy, quote at length, summarize, or
    ingest the text of paywalled standards (for example ISO/IEC 27001, 27002,
-   27090, or 42001). Use only the user's own statements, the descriptive information in
+   27028, 27090, or 42001). Use only the user's own statements, the descriptive information in
    `core/compliance-library.md`, and control identifiers. ISO states that its
    content may not be used to prompt AI tools to generate responses, so the
    user decides what to share from any licensed copy.
@@ -104,6 +104,7 @@ Take extra care with these templates:
 | `external-attack-surface-report` | Cover only assets the organization owns or is authorized to assess. |
 | `phishing-simulation-awareness-report` | Aggregate results only. Never name individuals. |
 | `phishing-campaign-analysis` | Redact real recipient addresses. |
+| `control-attribute-coverage-report` | Use the organization's own attribute scheme. Never reproduce attribute tables or per-control values from ISO/IEC 27002 or 27028. |
 | `ai-management-system-review` | Never claim certification. Use only certificate details the user provides. Do not reproduce text from ISO/IEC 42001 or any paywalled standard. |
 | `ai-system-security-report` | Use only the user's own inputs about their AI systems. Do not reproduce text from ISO/IEC 27090 or any paywalled standard. |
 | `compliance-evidence-pack` | Never write attestation language. Use only what the compliance owner provides. |

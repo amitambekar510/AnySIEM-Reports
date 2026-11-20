@@ -31,7 +31,7 @@ https://github.com/amitambekar510/AnySIEM-Reports
 and follow it exactly. Start by showing me the template catalog.
 ```
 
-## Available templates (38)
+## Available templates (39)
 
 | Category | Template | ID | Typical cadence | Theme |
 |---|---|---|---|---|
@@ -66,6 +66,7 @@ and follow it exactly. Start by showing me the template catalog.
 | Governance | Monitoring Platform Access Review | `platform-access-review` | Quarterly or semi-annual | Mint / Jade Gray |
 | Governance | SOC Risk Register Report | `soc-risk-register-report` | Quarterly | Cinnabar / Aquamarine |
 | Governance | SOC Disaster Recovery and Continuity Test Report | `soc-dr-continuity-test-report` | Per test (at least annual) | Magenta Gray / Grape |
+| Governance | Control Attribute Coverage Report | `control-attribute-coverage-report` | Quarterly or annual | Scarlet / Flamingo |
 | Exposure | Vulnerability and Patch Posture Report | `vulnerability-patch-posture` | Monthly or quarterly | Cerise / Peacock |
 | Exposure | External Attack Surface Report | `external-attack-surface-report` | Quarterly | Marigold / Turquoise Gray |
 | Exposure | Phishing Simulation and Awareness Report | `phishing-simulation-awareness-report` | Per campaign or quarterly | Pistachio / Iris |
@@ -80,11 +81,11 @@ More templates are added over time. The full list is always in [`catalog/templat
 
 **Indian regulations:** CERT-In April 2022 Directions, SEBI CSCRF 2024, RBI IT and Cyber Security Frameworks, DPDP Act 2023.
 
-**International standards and guidance:** ISO/IEC 27001, ISO/IEC 42001 (AI management systems), ISO/IEC 27090 (security of AI systems, forward-looking guidance, published October 2026), MITRE ATT&CK Enterprise, NIST Cybersecurity Framework.
+**International standards and guidance:** ISO/IEC 27001, ISO/IEC 27028 (control attributes, Edition 1, 2026), ISO/IEC 42001 (AI management systems), ISO/IEC 27090 (security of AI systems, forward-looking guidance, published October 2026), MITRE ATT&CK Enterprise, NIST Cybersecurity Framework.
 
 **Exchange and sector requirements:** NSE/BSE Annual Technology Audit, NPCI/UPI Payment Security Guidelines, SEBI PFUTP Regulations 2003.
 
-**Total: 12 frameworks and regulatory requirements.** See [`docs/FRAMEWORK_COVERAGE.md`](docs/FRAMEWORK_COVERAGE.md) for how each one is used.
+**Total: 13 frameworks and regulatory requirements.** See [`docs/FRAMEWORK_COVERAGE.md`](docs/FRAMEWORK_COVERAGE.md) for how each one is used.
 
 Details and verification rules are in [`core/compliance-library.md`](core/compliance-library.md). Mappings are indicative, and the AI must verify current official text before citing any obligation.
 

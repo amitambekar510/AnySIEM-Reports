@@ -82,6 +82,7 @@ Blueprint for reporting SOC and monitoring risks. Use the organization's own ris
 
 - Table: risk, cause, impact, likelihood, rating, existing controls, owner, treatment, due date
 - AI-system security risks (when AI systems are in scope)
+- Treatment-plan controls checked by attribute for gaps (when the organization uses control attributes)
 
 **Inputs from the user**
 
@@ -91,7 +92,7 @@ Blueprint for reporting SOC and monitoring risks. Use the organization's own ris
 
 - Evidence from monitoring (coverage gaps, incident trends)
 
-**Compliance hooks (indicative, verify before citing):** ISO/IEC 27001, NIST CSF, RBI IT/Cyber, SEBI CSCRF 2024, ISO/IEC 27090, ISO/IEC 42001
+**Compliance hooks (indicative, verify before citing):** ISO/IEC 27001, NIST CSF, RBI IT/Cyber, SEBI CSCRF 2024, ISO/IEC 27090, ISO/IEC 42001, ISO/IEC 27028
 
 ## RR4: New, Changed and Closed Risks
 

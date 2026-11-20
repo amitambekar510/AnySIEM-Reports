@@ -15,7 +15,7 @@ Indicative mapping only. Confirm each item against the current official text (se
 | M8 Vulnerability and Patch Posture | ISO/IEC 27001, SEBI CSCRF 2024, RBI IT/Cyber, NSE/BSE Tech Audit |
 | M9 Findings, Recommendations and Action Items | ISO/IEC 27001, SEBI CSCRF 2024 |
 | M10 Service Level Compliance | ISO/IEC 27001, RBI IT/Cyber, SEBI CSCRF 2024 |
-| M11 Regulatory and Framework Compliance Summary | CERT-In 2022, SEBI CSCRF 2024, RBI IT/Cyber, DPDP Act 2023, ISO/IEC 27001, MITRE ATT&CK, NIST CSF, NSE/BSE Tech Audit, NPCI/UPI, SEBI PFUTP 2003 |
+| M11 Regulatory and Framework Compliance Summary | CERT-In 2022, SEBI CSCRF 2024, RBI IT/Cyber, DPDP Act 2023, ISO/IEC 27001, MITRE ATT&CK, NIST CSF, NSE/BSE Tech Audit, NPCI/UPI, SEBI PFUTP 2003, ISO/IEC 27028 |
 | M12 Advisory Notes and Security Awareness | ISO/IEC 27001, SEBI CSCRF 2024 |
 | M12A AI System Security Addendum | ISO/IEC 27090, ISO/IEC 42001, ISO/IEC 27001, NIST CSF, MITRE ATT&CK |
 | M13 Sign-Off and Acknowledgement | ISO/IEC 27001 |

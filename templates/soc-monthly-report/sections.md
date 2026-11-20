@@ -302,6 +302,7 @@ Blueprint for a periodic SOC operations report. Duration and audit period are se
 **Content blocks**
 
 - Control domain table (reference, domain, status, evidence)
+- Attribute view of controls (when the organization uses control attributes)
 
 **Inputs from the user**
 
@@ -312,7 +313,7 @@ Blueprint for a periodic SOC operations report. Duration and audit period are se
 
 - Evidence extracts such as retention and monitoring reports
 
-**Compliance hooks (indicative, verify before citing):** CERT-In 2022, SEBI CSCRF 2024, RBI IT/Cyber, DPDP Act 2023, ISO/IEC 27001, MITRE ATT&CK, NIST CSF, NSE/BSE Tech Audit, NPCI/UPI, SEBI PFUTP 2003
+**Compliance hooks (indicative, verify before citing):** CERT-In 2022, SEBI CSCRF 2024, RBI IT/Cyber, DPDP Act 2023, ISO/IEC 27001, MITRE ATT&CK, NIST CSF, NSE/BSE Tech Audit, NPCI/UPI, SEBI PFUTP 2003, ISO/IEC 27028
 
 **Writing note:** Use only frameworks the user selected. Mark unverified items 'to be confirmed'.
 

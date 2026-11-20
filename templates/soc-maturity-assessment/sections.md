@@ -87,6 +87,7 @@ Blueprint for a maturity assessment. The user names the model. Do not invent sco
 - Domains such as people, process, technology, intelligence, governance
 - Rating with evidence per domain
 - AI governance domain (when AI systems are in scope)
+- Control attribute coverage view (when the organization uses control attributes)
 
 **Inputs from the user**
 
@@ -96,7 +97,7 @@ Blueprint for a maturity assessment. The user names the model. Do not invent sco
 
 - Capability evidence from the platform
 
-**Compliance hooks (indicative, verify before citing):** ISO/IEC 27001, NIST CSF, SEBI CSCRF 2024, ISO/IEC 42001
+**Compliance hooks (indicative, verify before citing):** ISO/IEC 27001, NIST CSF, SEBI CSCRF 2024, ISO/IEC 42001, ISO/IEC 27028
 
 ## MA4: Strengths
 

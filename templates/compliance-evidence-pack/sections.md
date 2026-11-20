@@ -67,6 +67,7 @@ Blueprint for an audit-ready evidence pack. Build one pack per framework. Never 
 
 - Matrix: control reference, requirement summary (verified), SOC activity, evidence ID, status, owner
 - Status values: Evidenced, Partially evidenced, Not in SOC scope, To be confirmed
+- Attribute view of controls (when the organization uses control attributes)
 
 **Inputs from the user**
 
@@ -77,7 +78,7 @@ Blueprint for an audit-ready evidence pack. Build one pack per framework. Never 
 
 - Monitoring, retention, and incident evidence extracts
 
-**Compliance hooks (indicative, verify before citing):** CERT-In 2022, SEBI CSCRF 2024, RBI IT/Cyber, DPDP Act 2023, ISO/IEC 27001, MITRE ATT&CK, NIST CSF, NSE/BSE Tech Audit, NPCI/UPI, SEBI PFUTP 2003, ISO/IEC 27090, ISO/IEC 42001
+**Compliance hooks (indicative, verify before citing):** CERT-In 2022, SEBI CSCRF 2024, RBI IT/Cyber, DPDP Act 2023, ISO/IEC 27001, MITRE ATT&CK, NIST CSF, NSE/BSE Tech Audit, NPCI/UPI, SEBI PFUTP 2003, ISO/IEC 27090, ISO/IEC 42001, ISO/IEC 27028
 
 **Writing note:** Verify every control reference against the official text. Mark anything unverified 'To be confirmed'.
 

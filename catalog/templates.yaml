@@ -1,6 +1,6 @@
 # The menu the AI shows users. To add a template, create templates/<id>/ and
 # add one entry here. See docs/ADDING_A_TEMPLATE.md.
-catalog_version: 3
+catalog_version: 4
 templates:
   - id: soc-monthly-report
     name: "SOC Operations Report"
@@ -144,7 +144,7 @@ templates:
     path: templates/detection-engineering-attack-gaps
     category: "Platform"
     palette: sapphire-cyan
-    related: [attack-coverage-gap-analysis]
+    related: [attack-coverage-gap-analysis, control-attribute-coverage-report]
     status: available
   - id: log-source-onboarding-report
     name: "Log Source Onboarding Report"
@@ -197,6 +197,7 @@ templates:
     path: templates/compliance-evidence-pack
     category: "Governance"
     palette: cashmere-brown
+    related: [control-attribute-coverage-report]
     status: available
   - id: tabletop-exercise-report
     name: "Tabletop Exercise Report"
@@ -212,6 +213,7 @@ templates:
     path: templates/soc-maturity-assessment
     category: "Governance"
     palette: cyan-rose
+    related: [control-attribute-coverage-report]
     status: available
   - id: platform-access-review
     name: "Monitoring Platform Access Review"
@@ -226,6 +228,7 @@ templates:
     path: templates/soc-risk-register-report
     category: "Governance"
     palette: cinnabar-aquamarine
+    related: [control-attribute-coverage-report]
     status: available
   - id: soc-dr-continuity-test-report
     name: "SOC Disaster Recovery and Continuity Test Report"
@@ -233,6 +236,14 @@ templates:
     path: templates/soc-dr-continuity-test-report
     category: "Governance"
     palette: magenta-gray-grape
+    status: available
+  - id: control-attribute-coverage-report
+    name: "Control Attribute Coverage Report"
+    description: "Shows how SOC controls, detections, and evidence are organized and checked using control attributes, with gaps and a roadmap."
+    path: templates/control-attribute-coverage-report
+    category: "Governance"
+    palette: scarlet-flamingo
+    related: [compliance-evidence-pack, soc-maturity-assessment, soc-risk-register-report, detection-engineering-attack-gaps]
     status: available
   - id: vulnerability-patch-posture
     name: "Vulnerability and Patch Posture Report"

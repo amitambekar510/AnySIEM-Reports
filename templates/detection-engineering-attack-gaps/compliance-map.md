@@ -6,7 +6,7 @@ Indicative mapping only. Confirm each item against the current official text (se
 |---|---|
 | D0 Cover and Document Control | ISO/IEC 27001 |
 | D1 Executive Summary | MITRE ATT&CK, NIST CSF, ISO/IEC 27001 |
-| D2 Detection Inventory | ISO/IEC 27001, MITRE ATT&CK |
+| D2 Detection Inventory | ISO/IEC 27001, MITRE ATT&CK, ISO/IEC 27028 |
 | D3 ATT&CK Coverage Analysis | MITRE ATT&CK, NIST CSF |
 | D4 Gap Analysis | MITRE ATT&CK, NIST CSF, SEBI CSCRF 2024, ISO/IEC 27090 |
 | D5 Rule Performance and Tuning | ISO/IEC 27001, MITRE ATT&CK |

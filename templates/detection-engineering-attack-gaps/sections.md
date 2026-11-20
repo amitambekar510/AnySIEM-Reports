@@ -67,6 +67,7 @@ Blueprint for a detection engineering report with honest ATT&CK coverage and pri
 - Rules by type and status
 - Ownership and last review date
 - Custom vs vendor-supplied content
+- Attribute tags per detection (control type, properties addressed, and any custom attributes the organization defines)
 
 **Inputs from the user**
 
@@ -78,7 +79,7 @@ Blueprint for a detection engineering report with honest ATT&CK coverage and pri
 - Last modified date
 - Rule owner
 
-**Compliance hooks (indicative, verify before citing):** ISO/IEC 27001, MITRE ATT&CK
+**Compliance hooks (indicative, verify before citing):** ISO/IEC 27001, MITRE ATT&CK, ISO/IEC 27028
 
 ## D3: ATT&CK Coverage Analysis
 

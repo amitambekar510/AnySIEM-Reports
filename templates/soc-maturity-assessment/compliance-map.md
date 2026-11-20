@@ -7,7 +7,7 @@ Indicative mapping only. Confirm each item against the current official text (se
 | MA0 Cover and Document Control | ISO/IEC 27001 |
 | MA1 Scope and Model | ISO/IEC 27001, NIST CSF, SEBI CSCRF 2024 |
 | MA2 Assessment Method | ISO/IEC 27001 |
-| MA3 Domain Ratings | ISO/IEC 27001, NIST CSF, SEBI CSCRF 2024, ISO/IEC 42001 |
+| MA3 Domain Ratings | ISO/IEC 27001, NIST CSF, SEBI CSCRF 2024, ISO/IEC 42001, ISO/IEC 27028 |
 | MA4 Strengths | ISO/IEC 27001 |
 | MA5 Gaps and Risk | ISO/IEC 27001, SEBI CSCRF 2024, NIST CSF |
 | MA6 Target State and Roadmap | ISO/IEC 27001, NIST CSF |

@@ -1,6 +1,6 @@
 # Color Palettes
 
-Each template uses its own palette, so no two templates look alike. All 39 palettes below are assigned. When you add a template, design a new palette (a hue and accent not yet used, with strong contrast between the primary color and white text) and record it here.
+Each template uses its own palette, so no two templates look alike. All 40 palettes below are assigned. When you add a template, design a new palette (a hue and accent not yet used, with strong contrast between the primary color and white text) and record it here.
 
 ![Palette preview](palette-preview.png)
 
@@ -45,3 +45,4 @@ Each template uses its own palette, so no two templates look alike. All 39 palet
 | `copper-gray-twilight` | Copper Gray / Twilight | `tuning-whitelisting-log` | `#32291F` | `#685440` | `#6464CE` | `#F0E8E0` | `#FBF9F6` |
 | `mustard-gray-rust-gray` | Mustard Gray / Rust Gray | `ai-system-security-report` | `#413511` | `#A58627` | `#CE7E64` | `#F0ECE0` | `#FBFAF6` |
 | `shamrock-gray-seafoam` | Shamrock Gray / Seafoam | `ai-management-system-review` | `#153C1F` | `#2A7E3F` | `#64CEB4` | `#E0F0E4` | `#F6FBF7` |
+| `scarlet-flamingo` | Scarlet / Flamingo | `control-attribute-coverage-report` | `#411119` | `#A5273C` | `#CE64AB` | `#F0E0E3` | `#FBF6F7` |

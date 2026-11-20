@@ -12,6 +12,7 @@ If you cannot, mark it "to be confirmed".
 | RBI | RBI IT and Cyber Security Frameworks (banks and NBFCs) | rbi.org.in |
 | DPDP | Digital Personal Data Protection Act, 2023 and its Rules | meity.gov.in |
 | ISO27001 | ISO/IEC 27001 Information Security Management | iso.org |
+| ISO27028 | ISO/IEC 27028 Information security, cybersecurity and privacy protection, Guidance on using information security control attributes | iso.org/standard/61007.html |
 | ISO42001 | ISO/IEC 42001 Information technology, Artificial intelligence, Management system | iso.org |
 | ISO27090 | ISO/IEC 27090 Cybersecurity, Artificial intelligence, Addressing security threats and compromises to AI systems | iso.org/standard/27090 |
 | ATTACK | MITRE ATT&CK Enterprise | attack.mitre.org |
@@ -46,6 +47,21 @@ require, and records of the decision. *Verify the Rules in force.*
 incident management (A.5.24 to A.5.28), logging (A.8.15), monitoring
 activities (A.8.16), technical vulnerability management (A.8.8), awareness
 (A.6.3). Plus clause 7.5 documented information and clause 10 improvement.
+
+**ISO27028.** Guidance on using information security control attributes
+(Edition 1, dated November 2026). On the ISO page checked for this project, its
+status was "under publication" (final production steps), so confirm the current
+status before citing it as published. ISO/IEC 27002:2022 introduced organizing
+controls by themes and attributes. ISO/IEC 27028 explains how to use attributes
+in practice to classify or characterize, select, and design controls, and how to
+define additional (custom) attributes. The guidance is generic and applies to
+organizations of any type, size, or nature. Indicative report evidence: which
+attributes the organization uses, how SOC controls and detections are tagged,
+distribution of controls by attribute value, gaps found by checking attribute
+coverage against risk treatment plans, and custom attributes the organization
+defines. It is guidance, not a requirement.
+*Verify against the licensed standard. Do not reproduce attribute tables or
+per-control attribute values from ISO/IEC 27002 or 27028.*
 
 **ISO42001.** Published in December 2023. It specifies requirements for
 establishing, implementing, maintaining, and continually improving an artificial
