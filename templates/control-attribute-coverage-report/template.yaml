@@ -1,8 +1,0 @@
-id: control-attribute-coverage-report
-name: "Control Attribute Coverage Report"
-version: 1.0
-description: "Shows how SOC controls, detections, and evidence are organized and checked using control attributes, with gaps and a roadmap."
-palette: scarlet-flamingo
-cadence: "Quarterly or annual"
-output: pdf
-language: en-US
