@@ -1,0 +1,16 @@
+template: detection-engineering-attack-gaps
+palette: sapphire-cyan
+colors:
+  primary: "#0B2A6F"
+  secondary: "#1D6FD8"
+  accent: "#3CC4E8"
+  tint: "#DCEBFB"
+  surface: "#F5FAFF"
+  ink: "#081A44"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

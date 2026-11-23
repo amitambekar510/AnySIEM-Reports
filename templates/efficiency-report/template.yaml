@@ -1,0 +1,8 @@
+id: efficiency-report
+name: "SOC Efficiency Report"
+version: 1.0
+description: "Detection and response timing, alert quality, workload, automation impact, and quality assurance."
+palette: ember-amber
+cadence: "Monthly or quarterly"
+output: pdf
+language: en-US

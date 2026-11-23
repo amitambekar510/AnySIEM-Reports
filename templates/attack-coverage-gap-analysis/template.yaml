@@ -1,0 +1,8 @@
+id: attack-coverage-gap-analysis
+name: "ATT&CK Coverage Gap Analysis"
+version: 1.0
+description: "Technique-level coverage matrix, threat-informed priorities, gap register, and roadmap."
+palette: fern-gray-clover-gray
+cadence: "Quarterly"
+output: pdf
+language: en-US

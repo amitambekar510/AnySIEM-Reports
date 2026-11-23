@@ -1,0 +1,8 @@
+id: ai-system-security-report
+name: "AI System Security Monitoring Report"
+version: 1.0
+description: "Security monitoring of AI systems: inventory, protected assets, AI-specific threats, lifecycle coverage, controls, and gaps."
+palette: mustard-gray-rust-gray
+cadence: "Quarterly or per AI system"
+output: pdf
+language: en-US

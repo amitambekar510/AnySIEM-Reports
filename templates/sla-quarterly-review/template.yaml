@@ -1,0 +1,8 @@
+id: sla-quarterly-review
+name: "SLA and Quarterly Service Review"
+version: 1.0
+description: "Managed-service review: SLA results, service metrics, improvements, issues, and next-quarter plan."
+palette: rose-orchid
+cadence: "Quarterly"
+output: pdf
+language: en-US

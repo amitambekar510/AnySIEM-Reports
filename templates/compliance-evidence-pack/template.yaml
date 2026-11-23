@@ -1,0 +1,8 @@
+id: compliance-evidence-pack
+name: "Compliance Evidence Pack"
+version: 1.0
+description: "Control mapping, evidence index, samples, gaps, and regulatory reporting record for one framework."
+palette: cashmere-brown
+cadence: "Per audit period"
+output: pdf
+language: en-US

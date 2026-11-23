@@ -1,5 +1,9 @@
 # AnySIEM-Reports
 
+<p align="center">
+  <img src="assets/banner.png" alt="AnySIEM-Reports: AI-guided SOC reporting for any SIEM" width="100%">
+</p>
+
 > An open framework that helps SOC teams build compliance-focused reporting templates for any SIEM. Connect it to your AI assistant, answer guided questions about your SOC, and generate a branded PDF report, whether monthly, quarterly, or annual.
 
 **Author:** Amit Ambekar | [github.com/amitambekar510](https://github.com/amitambekar510)
@@ -20,6 +24,21 @@ AnySIEM-Reports is **SIEM-agnostic**. The templates describe *what evidence a re
 4. **Receive** one finished, branded **PDF**.
 
 The AI first researches your SIEM's current features from public vendor documentation. Anything it cannot confirm, it asks you.
+
+<p align="center">
+  <img src="assets/how-it-works.gif" alt="Animated overview: ask, learn, draft, deliver a PDF" width="100%">
+</p>
+
+## What's new
+
+<p align="center">
+  <img src="assets/iso-27028-update.png" alt="ISO/IEC 27028 control attributes now mapped in AnySIEM-Reports" width="100%">
+</p>
+
+- **ISO/IEC 27028** (control attributes, Edition 1, 2026) is now mapped across the project.
+- New template: **Control Attribute Coverage Report**.
+- Attribute views were added to five existing templates.
+- The project now has **39 templates** and **13 frameworks and regulatory requirements**.
 
 ## Starter prompt
 
@@ -77,6 +96,10 @@ and follow it exactly. Start by showing me the template catalog.
 
 More templates are added over time. The full list is always in [`catalog/templates.yaml`](catalog/templates.yaml).
 
+<p align="center">
+  <img src="docs/palette-preview.png" alt="Color palettes, one per template" width="100%">
+</p>
+
 ## Frameworks covered
 
 **Indian regulations:** CERT-In April 2022 Directions, SEBI CSCRF 2024, RBI IT and Cyber Security Frameworks, DPDP Act 2023.
@@ -96,6 +119,7 @@ AnySIEM-Reports/
 |-- README.md
 |-- LICENSE
 |-- AI_INSTRUCTIONS.md          The rules every AI assistant must follow
+|-- assets/                     README images and the workflow GIF
 |-- catalog/templates.yaml      The menu of available templates
 |-- core/                       Interview flow, SIEM discovery, PDF rules, style, branding
 |-- templates/                  One folder per template (sections, questions, data needs)

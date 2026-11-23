@@ -1,0 +1,8 @@
+id: insider-threat-case-report
+name: "Insider Threat and User Behavior Case Report"
+version: 1.0
+description: "Restricted case report on suspicious user activity with authorization, facts, assessment, and referrals."
+palette: saffron-azure
+cadence: "Per case"
+output: pdf
+language: en-US

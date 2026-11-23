@@ -1,0 +1,8 @@
+id: phishing-simulation-awareness-report
+name: "Phishing Simulation and Awareness Report"
+version: 1.0
+description: "Aggregate results of phishing simulations and training, with trends and recommendations."
+palette: pistachio-iris
+cadence: "Per campaign or quarterly"
+output: pdf
+language: en-US

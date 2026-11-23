@@ -1,0 +1,16 @@
+template: incident-report
+palette: deep-cranberry
+colors:
+  primary: "#7F1D1D"
+  secondary: "#BE3A3A"
+  accent: "#BE3A3A"
+  tint: "#F4D6D6"
+  surface: "#FFF8F2"
+  ink: "#2A1C1C"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

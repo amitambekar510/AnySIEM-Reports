@@ -1,0 +1,16 @@
+template: log-source-onboarding-report
+palette: turquoise-denim
+colors:
+  primary: "#113141"
+  secondary: "#277BA5"
+  accent: "#6476CE"
+  tint: "#E0EBF0"
+  surface: "#F6F9FB"
+  ink: "#0E1A20"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

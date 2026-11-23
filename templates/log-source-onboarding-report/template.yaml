@@ -1,0 +1,8 @@
+id: log-source-onboarding-report
+name: "Log Source Onboarding Report"
+version: 1.0
+description: "Per-source onboarding record: design, validation, use cases, capacity, and acceptance."
+palette: turquoise-denim
+cadence: "Per source"
+output: pdf
+language: en-US

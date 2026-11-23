@@ -1,0 +1,8 @@
+id: tabletop-exercise-report
+name: "Tabletop Exercise Report"
+version: 1.0
+description: "Exercise objectives, scenario, decisions, findings, notification readiness, and corrective actions."
+palette: olive-moss
+cadence: "Per exercise"
+output: pdf
+language: en-US

@@ -1,0 +1,16 @@
+template: soc-maturity-assessment
+palette: cyan-rose
+colors:
+  primary: "#11413D"
+  secondary: "#27A59B"
+  accent: "#CE64A2"
+  tint: "#E0F0EF"
+  surface: "#F6FBFB"
+  ink: "#0E201F"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

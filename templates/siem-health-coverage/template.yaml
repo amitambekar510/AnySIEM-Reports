@@ -1,0 +1,8 @@
+id: siem-health-coverage
+name: "SIEM Health and Coverage Report"
+version: 1.0
+description: "Platform health, log source coverage, ingestion quality, retention, and gap analysis."
+palette: deep-teal
+cadence: "Monthly or quarterly"
+output: pdf
+language: en-US

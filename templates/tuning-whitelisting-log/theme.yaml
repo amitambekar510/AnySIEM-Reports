@@ -1,0 +1,16 @@
+template: tuning-whitelisting-log
+palette: copper-gray-twilight
+colors:
+  primary: "#32291F"
+  secondary: "#685440"
+  accent: "#6464CE"
+  tint: "#F0E8E0"
+  surface: "#FBF9F6"
+  ink: "#20170E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

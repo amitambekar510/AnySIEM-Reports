@@ -1,0 +1,16 @@
+template: threat-intelligence-digest
+palette: pine-shadow
+colors:
+  primary: "#12372A"
+  secondary: "#2F6B4F"
+  accent: "#2F6B4F"
+  tint: "#BFD8C2"
+  surface: "#F3FAF4"
+  ink: "#3A2B22"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

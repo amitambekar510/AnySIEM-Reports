@@ -1,0 +1,16 @@
+template: credential-leak-monitoring-report
+palette: rust-garnet
+colors:
+  primary: "#3C1F15"
+  secondary: "#7E3F2A"
+  accent: "#CE647E"
+  tint: "#F0E4E0"
+  surface: "#FBF7F6"
+  ink: "#20120E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

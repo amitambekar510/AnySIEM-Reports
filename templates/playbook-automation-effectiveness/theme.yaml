@@ -1,0 +1,16 @@
+template: playbook-automation-effectiveness
+palette: terracotta-lime
+colors:
+  primary: "#412D11"
+  secondary: "#885D20"
+  accent: "#C5CE64"
+  tint: "#F0E9E0"
+  surface: "#FBF9F6"
+  ink: "#20180E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

@@ -1,0 +1,8 @@
+id: post-incident-review
+name: "Post-Incident Review"
+version: 1.0
+description: "Blameless review of an incident: what worked, what did not, lessons, and tracked actions."
+palette: crimson-jade
+cadence: "Per incident"
+output: pdf
+language: en-US

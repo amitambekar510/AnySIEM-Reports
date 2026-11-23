@@ -1,0 +1,8 @@
+id: credential-leak-monitoring-report
+name: "Credential Leak and Dark Web Monitoring Report"
+version: 1.0
+description: "Report on exposed credentials and data-sale claims, validation, risk, and actions."
+palette: rust-garnet
+cadence: "Monthly or quarterly"
+output: pdf
+language: en-US

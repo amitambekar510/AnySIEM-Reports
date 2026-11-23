@@ -1,0 +1,16 @@
+template: daily-soc-summary
+palette: fern-violet
+colors:
+  primary: "#114111"
+  secondary: "#27A527"
+  accent: "#9964CE"
+  tint: "#E0F0E0"
+  surface: "#F6FBF6"
+  ink: "#0E200E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

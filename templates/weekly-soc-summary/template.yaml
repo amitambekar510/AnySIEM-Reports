@@ -1,0 +1,8 @@
+id: weekly-soc-summary
+name: "Weekly SOC Summary"
+version: 1.0
+description: "Weekly view of alerts, incidents, threat activity, platform health, and improvements."
+palette: copper-indigo
+cadence: "Weekly"
+output: pdf
+language: en-US

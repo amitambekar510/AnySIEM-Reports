@@ -1,0 +1,8 @@
+# Phishing Simulation and Awareness Report: Data Needs
+
+Vendor-neutral list of the data each section needs. Use the SIEM profile to decide where each item comes from.
+
+| Section | Data needed | If unavailable |
+|---|---|---|
+| PS2 Results | Mail and web logs if available | Ask the user. If still unavailable, mark as not available from the current configuration and offer to list it under Findings. |
+| PS6 Reporting Behavior | Reported-message records | Ask the user. If still unavailable, mark as not available from the current configuration and offer to list it under Findings. |

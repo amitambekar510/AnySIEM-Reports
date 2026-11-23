@@ -1,0 +1,8 @@
+id: external-attack-surface-report
+name: "External Attack Surface Report"
+version: 1.0
+description: "Authorized view of internet-facing assets, exposed services, certificates, DNS, and unknown assets."
+palette: marigold-turquoise-gray
+cadence: "Quarterly"
+output: pdf
+language: en-US

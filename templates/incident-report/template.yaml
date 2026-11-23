@@ -1,0 +1,8 @@
+id: incident-report
+name: "Security Incident Report"
+version: 1.0
+description: "Per-incident report with classification, RCA, notifications, and recommendations."
+palette: deep-cranberry
+cadence: "Per incident"
+output: pdf
+language: en-US

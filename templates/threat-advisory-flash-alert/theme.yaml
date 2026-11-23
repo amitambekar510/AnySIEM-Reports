@@ -1,0 +1,16 @@
+template: threat-advisory-flash-alert
+palette: raspberry-mauve
+colors:
+  primary: "#321F29"
+  secondary: "#684054"
+  accent: "#CE64CE"
+  tint: "#F0E0E8"
+  surface: "#FBF6F9"
+  ink: "#200E17"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

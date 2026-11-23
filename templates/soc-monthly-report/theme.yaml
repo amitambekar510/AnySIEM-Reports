@@ -1,0 +1,16 @@
+template: soc-monthly-report
+palette: deep-winter-blue
+colors:
+  darkest: "#071629"
+  primary: "#17345C"
+  accent: "#9DB7D5"
+  tint: "#EAF4FF"
+  surface: "#FFFFFF"
+  ink: "#071629"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

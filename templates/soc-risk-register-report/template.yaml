@@ -1,0 +1,8 @@
+id: soc-risk-register-report
+name: "SOC Risk Register Report"
+version: 1.0
+description: "Risk method, register summary, risk detail, changes, decisions needed, and trends."
+palette: cinnabar-aquamarine
+cadence: "Quarterly"
+output: pdf
+language: en-US

@@ -1,0 +1,16 @@
+template: siem-health-coverage
+palette: deep-teal
+colors:
+  primary: "#0B4F5C"
+  secondary: "#1B8A94"
+  accent: "#6FC7C6"
+  tint: "#D5EEEE"
+  surface: "#F2FAFA"
+  ink: "#06262E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

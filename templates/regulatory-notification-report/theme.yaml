@@ -1,0 +1,16 @@
+template: regulatory-notification-report
+palette: emerald-ruby
+colors:
+  primary: "#114129"
+  secondary: "#27A566"
+  accent: "#CE6464"
+  tint: "#E0F0E8"
+  surface: "#F6FBF9"
+  ink: "#0E2017"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

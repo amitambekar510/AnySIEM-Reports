@@ -1,0 +1,16 @@
+template: insider-threat-case-report
+palette: saffron-azure
+colors:
+  primary: "#414111"
+  secondary: "#A5A527"
+  accent: "#6499CE"
+  tint: "#F0F0E0"
+  surface: "#FBFBF6"
+  ink: "#20200E"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

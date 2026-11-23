@@ -1,0 +1,8 @@
+id: tuning-whitelisting-log
+name: "Tuning and Whitelisting Request Log"
+version: 1.0
+description: "Governed register of rule tuning and exception requests with approval, risk assessment, and expiry."
+palette: copper-gray-twilight
+cadence: "Monthly or quarterly"
+output: pdf
+language: en-US

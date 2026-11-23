@@ -1,0 +1,8 @@
+id: alert-incident-tracker
+name: "Daily Alert and Incident Tracker"
+version: 1.0
+description: "Field definitions, values, and log layout for a daily or monthly alert and incident tracker."
+palette: fuchsia-shamrock
+cadence: "Daily or monthly"
+output: pdf
+language: en-US

@@ -1,0 +1,16 @@
+template: tabletop-exercise-report
+palette: olive-moss
+colors:
+  primary: "#34401A"
+  secondary: "#66802B"
+  accent: "#B5C766"
+  tint: "#E6EDC9"
+  surface: "#FAFBF1"
+  ink: "#232B10"
+usage:
+  headings: primary
+  table_header_fill: primary
+  table_header_text: surface
+  alternate_row_fill: tint
+  callout_border: accent
+  body_text: ink

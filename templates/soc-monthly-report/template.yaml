@@ -1,0 +1,8 @@
+id: soc-monthly-report
+name: "SOC Operations Report"
+version: 1.0
+description: "Periodic SOC operations and compliance report."
+palette: deep-winter-blue
+cadence: "Monthly, quarterly, or annual"
+output: pdf
+language: en-US

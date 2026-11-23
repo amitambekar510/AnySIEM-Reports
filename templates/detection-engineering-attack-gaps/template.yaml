@@ -1,0 +1,8 @@
+id: detection-engineering-attack-gaps
+name: "Detection Engineering and ATT&CK Gap Report"
+version: 1.0
+description: "Detection inventory, ATT&CK coverage and gaps, rule performance, validation, and roadmap."
+palette: sapphire-cyan
+cadence: "Quarterly"
+output: pdf
+language: en-US
